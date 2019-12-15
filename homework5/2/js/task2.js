@@ -1,6 +1,7 @@
-function create(tag) {
-  return document.createElement("div");
+function create(tag){
+  return document.createElement(tag);
 }
+var el = create("div")
 function insertTag(tag) {
-  document.body.append(create(tag));
+  return document.body.append(el);
 }
