@@ -1,10 +1,10 @@
-var i = prompt("Введите id тега");
-function removeTags() {
-  var elem = document.getElementById(`${i}`);
-  if (elem === null) {
-    alert("Такого тега не существует");
+var tag = prompt("Введите id тега");
+function removeTagsById(tag) {
+  var elemToDelete = document.getElementById(`${tag}`);
+  if (elemToDelete === null) {
+    return alert("Такого тега не существует");
   } else {
-    elem.remove();
+    return elemToDelete.parentNode.removeChild(elemToDelete);
   }
 }
-removeTags();
+removeTagsById(tag);
