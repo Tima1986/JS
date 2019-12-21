@@ -14,4 +14,4 @@ function getElementsArr(argumentArr) {
     getElementsArr(argumentArr);
   }
 }
-getElementsArr(arr);
+getElementsArr(arr)
