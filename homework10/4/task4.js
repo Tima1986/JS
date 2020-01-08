@@ -1,6 +1,6 @@
-let arr = [12, 0, 56, 23, 5, 16, 1];
+const arr = [12, 0, 56, 23, 5, 16, 1];
 function arraySort(arr) {
-  let newArr = [];
+  const newArr = [];
   while (arr.length > 0) {
     let current = arr.shift();
     for (let elem of newArr) {
