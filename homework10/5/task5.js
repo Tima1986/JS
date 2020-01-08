@@ -1,6 +1,6 @@
-let names = ["Aleksandr", "Semen", "Igor", "Anna", "Artem"];
-let lastNames = ["Petrov", "Govorov", "Vorob'ev", "Vernikova", "Odintsov"];
-let newArray = [];
+const names = ["Aleksandr", "Semen", "Igor", "Anna", "Artem"];
+const lastNames = ["Petrov", "Govorov", "Vorob'ev", "Vernikova", "Odintsov"];
+const newArray = [];
 function persons(name, lastName) {
   for (let i in name) {
     newArray.push(name[i] + " " + lastName[i]);
