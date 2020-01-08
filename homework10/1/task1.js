@@ -1,4 +1,4 @@
-let group = [
+const group = [
   {
     name: "Alexsandr",
     lastName: "Men'shov",
